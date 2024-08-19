@@ -7,7 +7,7 @@ const routes: Routes = [
   { path: 'home', component: HomeComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' }, // redirect to `first-component`
   // { path: '**', component: PageNotFoundComponent },  // Wildcard route for a 404 page
-  { path: 'detail/drink', component: DetailComponent },
+  { path: 'portfolio', component: DetailComponent },
 ];
 
 @NgModule({
